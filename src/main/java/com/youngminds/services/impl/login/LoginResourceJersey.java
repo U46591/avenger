@@ -45,7 +45,8 @@ public class LoginResourceJersey implements LoginResource{
 		try{
 			String data = template.requestBody(LoginRoutes.REGISTER_USER_ROUTE,user, String.class);
 			LOGGER.debug("*******  registerUser::"+data);
-			return Response.ok(user).build();
+			return Response.ok(user).header("Access-Control-Allow-Origin", "*")
+					.build();
 		}catch (CamelExecutionException cee){
 			LOGGER.error("*******  registerUser::Exception::"+cee);
 			return Response.status(500).entity(cee).build();
