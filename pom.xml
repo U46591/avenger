@@ -69,12 +69,6 @@
 
 		<!-- -->
 
-		<dependency>
-			<groupId>com.youngminds.api</groupId>
-			<artifactId>young-minds-services-api</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
-		</dependency>
-
 		<!-- camel-core -->
 		<dependency>
 			<groupId>org.apache.camel</groupId>
