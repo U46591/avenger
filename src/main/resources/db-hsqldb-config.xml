@@ -14,6 +14,7 @@
 		<jdbc:script location="classpath:db/sql/insert-data.sql" />
 	</jdbc:embedded-database>
 	<!--  HSQL Db Manager-->
+	<!--
 	<bean depends-on="dataSource"
 		class="org.springframework.beans.factory.config.MethodInvokingBean">
 		<property name="targetClass" value="org.hsqldb.util.DatabaseManagerSwing" />
@@ -29,4 +30,5 @@
 			</list>
 		</property>
 	</bean>
+	-->
 </beans>
