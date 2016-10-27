@@ -21,11 +21,11 @@
 		<property name="targetMethod" value="main" />
 		<property name="arguments">
 			<list>
-				<value>--url</value>
+				<value>url</value>
 				<value>jdbc:hsqldb:mem:dataSource</value>
-				<value>--user</value>
+				<value>user</value>
 				<value>sa</value>
-				<value>--password</value>
+				<value>password</value>
 				<value></value>
 			</list>
 		</property>
