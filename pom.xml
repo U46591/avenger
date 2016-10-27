@@ -7,10 +7,9 @@
 	<packaging>war</packaging>
 
 	<properties>
-		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		
 		<jdk.version>1.7</jdk.version>
-		<maven.compiler.source>1.6</maven.compiler.source>
-		<maven.compiler.target>1.6</maven.compiler.target>
+		
 		<camel-version>2.15.1</camel-version>
 		<spring-version>4.0.3.RELEASE</spring-version>
 		<jersey-version>1.19.1</jersey-version>
