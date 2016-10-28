@@ -10,7 +10,7 @@
 
     UserService.$inject = ['$http'];
     function UserService($http,$location,$cookieStore) {
-    	alert('USER SERVICE *************');
+    	//alert('USER SERVICE *************');
         var services = {};
         var ym=this;
         ym.url="https://wal-mart-hack.herokuapp.com/rest/user/"
@@ -22,7 +22,7 @@
         	return $http.get(url).then(handleSuccess,handleError);
         }
         function POST(url,data){
-        	alert('service layer post method ');
+        	//alert('service layer post method ');
         	return $http({
         		method:'POST',
         		url:ym.url+url,
